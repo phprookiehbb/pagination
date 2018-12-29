@@ -1,0 +1,28 @@
+{
+  "name": "phprookiehbb/pagination",
+  "description": "tp5数组分页,可定制样式,稍微修改一下可使用与所有的情形下的数组分页",
+  "keywords": [
+    "tp5",
+    "pagination",
+    "array"
+  ],
+  "authors": [
+    {
+      "name": "crasphb",
+       "email": "646054215@qq.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.3.0"
+  },
+  "require-dev": {
+        "php": ">=5.4.0"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Crasphb\\": "src/"
+    }
+  }
+}
