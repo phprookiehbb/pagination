@@ -40,8 +40,8 @@ $page = $pagination->render();
 #### simple模式
 ![simple模式](https://i.loli.net/2019/05/22/5ce4b455bb5ee79418.png)
 #### style = 1,2,3
-![Image1 text](http://tpim.crasphter.cn/uploads/20190522/bb9733636f3ae935e509f9c212b2d293.png)
-![Image1 text](http://tpim.crasphter.cn/uploads/20190522/6d6588b8239d268aadde5434659e88a8.png)
-![Image1 text](http://tpim.crasphter.cn/uploads/20190522/68309ad07313208b4001ba00f01bac39.png)
+![Image1 text](https://i.loli.net/2019/05/22/5ce4b4d734bd981604.png)
+![Image1 text](https://i.loli.net/2019/05/22/5ce4b4f0bcfd011862.png)
+![Image1 text](https://i.loli.net/2019/05/22/5ce4b5023ab7654710.png)
 #### allCount,nowAllPage,toPage模式
-![Image1 text](http://tpim.crasphter.cn/uploads/20190522/39c1ba84b56a8d83592c7b380dfe4d11.png)
+![Image1 text](https://i.loli.net/2019/05/22/5ce4b51192c2325030.png)
