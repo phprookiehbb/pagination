@@ -41,7 +41,9 @@ $page = $pagination->render();
 ![simple模式](https://i.loli.net/2019/05/22/5ce4b455bb5ee79418.png)
 #### style = 1,2,3
 ![Image1 text](https://i.loli.net/2019/05/22/5ce4b4d734bd981604.png)
+
 ![Image1 text](https://i.loli.net/2019/05/22/5ce4b4f0bcfd011862.png)
+
 ![Image1 text](https://i.loli.net/2019/05/22/5ce4b5023ab7654710.png)
 #### allCount,nowAllPage,toPage模式
 ![Image1 text](https://i.loli.net/2019/05/22/5ce4b51192c2325030.png)
