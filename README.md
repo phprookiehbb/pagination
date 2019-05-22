@@ -16,7 +16,7 @@ composer require phprookiehbb/pagination:dev-master
 ### Example
 
 ``` php
-use Crasphb\Paginate;
+use Crasphb\Pagination;
 $pagination = new Pagination($target,1,['style' => 1,'simple'=>false,'allCounts'=>true,'nowAllPage'=>true,'toPage'=>true]);
 //数组的分页后的元素
 $item = $pagination->getItem();
@@ -38,10 +38,10 @@ $page = $pagination->render();
 ### Show
 
 #### simple模式
-![Image1 text](http://crasphter.cn/usr/uploads/2018/08/233997006.png)
+![simple模式](http://tpim.crasphter.cn/uploads/20190522/ef76e914a3430360c9e7669bfcc13c88.png)
 #### style = 1,2,3
-![Image1 text](http://crasphter.cn/usr/uploads/2018/08/233997006.png)
-![Image1 text](http://crasphter.cn/usr/uploads/2018/08/233997006.png)
-![Image1 text](http://crasphter.cn/usr/uploads/2018/08/233997006.png)
+![style = 1](http://tpim.crasphter.cn/uploads/20190522/bb9733636f3ae935e509f9c212b2d293.png)
+![style = 2](http://tpim.crasphter.cn/uploads/20190522/6d6588b8239d268aadde5434659e88a8.png)
+![style = 3](http://tpim.crasphter.cn/uploads/20190522/68309ad07313208b4001ba00f01bac39.png)
 #### allCount,nowAllPage,toPage模式
-![Image1 text](http://crasphter.cn/usr/uploads/2018/08/233997006.png)
+![allCount,nowAllPage,toPage模式](http://tpim.crasphter.cn/uploads/20190522/39c1ba84b56a8d83592c7b380dfe4d11.png)
