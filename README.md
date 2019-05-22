@@ -38,7 +38,7 @@ $page = $pagination->render();
 ### Show
 
 #### simple模式
-![Image1 text](http://tpim.crasphter.cn/uploads/20190522/ef76e914a3430360c9e7669bfcc13c88.png)
+![simple模式](https://i.loli.net/2019/05/22/5ce4b455bb5ee79418.png)
 #### style = 1,2,3
 ![Image1 text](http://tpim.crasphter.cn/uploads/20190522/bb9733636f3ae935e509f9c212b2d293.png)
 ![Image1 text](http://tpim.crasphter.cn/uploads/20190522/6d6588b8239d268aadde5434659e88a8.png)
