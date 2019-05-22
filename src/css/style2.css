@@ -1,0 +1,94 @@
+.hbb-pagination {
+    margin: 0;
+    padding: 0 10px;
+    list-style: none;
+    text-align: center;
+    margin: 20px 0;
+    text-shadow: 1px 1px 10px #fff
+}
+.hbb-pagination a:hover {
+    color: #777;
+}
+.hbb-pagination li {
+    list-style: none;
+    background: #fff;
+    background-color: rgb(255, 255, 255);
+    vertical-align: top;
+    display: inline-block;
+    font-size: 13px;
+    min-width: 35.5px;
+    height: 28px;
+    line-height: 28px;
+    cursor: pointer;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0;
+    text-align: center;
+    margin: 0 5px;
+    background-color: #f4f4f5;
+    color: #606266;
+    min-width: 30px;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+.hbb-pagination li a {
+    color: #333;
+    text-decoration: none;
+    padding: 0 4px;
+    height: 28px;
+    line-height: 28px;
+    display: inline-block;
+    padding: 0 5px;
+}
+.hbb-pagination li.active {
+    background-color: #409eff;
+    color: #fff;
+    cursor: default;
+}
+.hbb-pagination li.disabled {
+    cursor: not-allowed;
+}
+.hbb-pagination .hbb-page {
+    height: 30px;
+    line-height: 30px;
+    color: #999;
+    margin-left: 10px;
+    padding: 0;
+    border: none;
+    vertical-align: middle;
+    background-color: #fff;
+    font-size: 13px;
+}
+.hbb-pagination .hbb-page input {
+    height: 24px;
+    line-height: 24px;
+    /*vertical-align: top;*/
+    background-color: #fff;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 40px;
+    margin: 0 10px;
+    padding: 0 3px;
+    text-align: center;
+}
+.hbb-pagination .hbb-page button {
+    margin-left: 10px;
+    padding: 0 10px;
+    cursor: pointer;
+    height: 28px;
+    line-height: 28px;
+    border-radius: 2px;
+    vertical-align: top;
+    background-color: #fff;
+    box-sizing: border-box;
+    border: 1px solid #e2e2e2;
+    font-size: 13px;
+}
+.hbb-pagination .page-all, .hbb-pagination .page-total {
+    display: inline-block;
+    color: #999;
+    font-size: 13px;
+    margin-left: 8px;
+    height: 30px;
+    line-height: 30px;
+}

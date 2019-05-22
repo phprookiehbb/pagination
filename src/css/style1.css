@@ -1,0 +1,70 @@
+.hbb-pagination {
+    margin: 0;
+    padding: 0 10px;
+    list-style: none;
+    text-align: center;
+    margin: 20px 0;
+    text-shadow: 1px 1px 10px #fff
+}
+.hbb-pagination li {
+    display: inline-block;
+    color: #5f5f5f;
+    line-height: 20px
+}
+.hbb-pagination li a, .hbb-pagination li span {
+    display: inline-block;
+    font-size: 14px;
+    padding: 4px 15px 4px;
+    color: #5f5f5f;
+    text-decoration: none
+}
+.hbb-pagination li.active span {
+    color: #eb5055
+}
+.hbb-pagination li.disabled {
+    cursor: not-allowed;
+}
+.hbb-pagination .hbb-page {
+    height: 30px;
+    line-height: 30px;
+    color: #999;
+    margin-left: 10px;
+    padding: 0;
+    border: none;
+    vertical-align: middle;
+    background-color: #fff;
+    font-size: 13px;
+}
+.hbb-pagination .hbb-page input {
+    height: 24px;
+    line-height: 24px;
+    /*vertical-align: top;*/
+    background-color: #fff;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 40px;
+    margin: 0 10px;
+    padding: 0 3px;
+    text-align: center;
+}
+.hbb-pagination .hbb-page button {
+    margin-left: 10px;
+    padding: 0 10px;
+    cursor: pointer;
+    height: 28px;
+    line-height: 28px;
+    border-radius: 2px;
+    vertical-align: top;
+    background-color: #fff;
+    box-sizing: border-box;
+    border: 1px solid #e2e2e2;
+    font-size: 13px;
+}
+.hbb-pagination .page-all, .hbb-pagination .page-total {
+    display: inline-block;
+    color: #999;
+    font-size: 13px;
+    margin-left: 8px;
+    height: 30px;
+    line-height: 30px;
+}

@@ -1,0 +1,81 @@
+.hbb-pagination {
+    margin: 0;
+    padding: 0 10px;
+    list-style: none;
+    text-align: center;
+    margin: 20px 0;
+    text-shadow: 1px 1px 10px #fff
+}
+.hbb-pagination li {
+	display: inline-block;
+	position: relative;
+	zoom: 1;
+	vertical-align: middle;
+	padding: 1 18px;
+	height: 28px;
+	line-height: 28px;
+	margin: 0 -1px 5px 0;
+	    margin-left: 0px;
+	background-color: #fff;
+	color: #333;
+	font-size: 12px;
+	border: 1px solid #e2e2e2;
+}
+.hbb-pagination li a, .hbb-pagination li span {
+    position: absolute;
+	left: -1px;
+	top: -1px;
+	padding: 1px;
+	width: 100%;
+	height: 100%;
+	text-decoration: none;
+}
+.hbb-pagination li.active {
+    background-color: #FFB800;
+    color: #fff;
+    cursor: default;
+}
+.hbb-pagination .hbb-page {
+    height: 30px;
+    line-height: 30px;
+    color: #999;
+    margin-left: 10px;
+    padding: 0;
+    border: none;
+    vertical-align: middle;
+    background-color: #fff;
+    font-size: 13px;
+}
+.hbb-pagination .hbb-page input {
+    height: 24px;
+    line-height: 24px;
+    /*vertical-align: top;*/
+    background-color: #fff;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 40px;
+    margin: 0 10px;
+    padding: 0 3px;
+    text-align: center;
+}
+.hbb-pagination .hbb-page button {
+    margin-left: 10px;
+    padding: 0 10px;
+    cursor: pointer;
+    height: 28px;
+    line-height: 28px;
+    border-radius: 2px;
+    vertical-align: top;
+    background-color: #fff;
+    box-sizing: border-box;
+    border: 1px solid #e2e2e2;
+    font-size: 13px;
+}
+.hbb-pagination .page-all, .hbb-pagination .page-total {
+    display: inline-block;
+    color: #999;
+    font-size: 13px;
+    margin-left: 8px;
+    height: 30px;
+    line-height: 30px;
+}
