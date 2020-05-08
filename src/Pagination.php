@@ -5,7 +5,7 @@ namespace Crasphb;
  * @Author: CraspHB彬
  * @Date:   2018-07-19 16:41:06
  * @Email:   646054215@qq.com
- * @Last Modified time: 2019-05-22 10:04:30
+ * @Last Modified time: 2020-05-08 16:56:08
  */
 class Pagination{
     
@@ -345,7 +345,7 @@ class Pagination{
     }
     protected function getStyle(){
         $style = $this->options['style'];
-        $css = file_get_contents("../css/style{$style}.css");
+        $css = file_get_contents(str_replace('\\','/',__DIR__."/css/style{$style}.css"));
         return "<style>{$css}</style>";
     }
     /**
